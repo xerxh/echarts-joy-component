@@ -1,0 +1,17 @@
+.container-fluid {
+    background: #404a59;
+    color: #78FAFA;
+    
+}
+.title {
+    background-color: rgba(120,250,250,0.3);
+}
+.attackList {
+    margin-bottom: 10px;
+}
+.data{  
+    margin-bottom: 10px;
+}
+.data > li:first-child{
+    padding-left: 35px;
+}

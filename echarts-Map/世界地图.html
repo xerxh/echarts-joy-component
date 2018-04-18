@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEb入侵检测漏洞感知系统</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <!-- 为ECharts准备一个具备大小（宽高）的Dom  Map容器-->
+        <div class="col-xs-12 col-md-12">
+                <div id="main"  style="width: 100%;height:1000px;"></div>   
+        </div>
+        <!-- type表容器 -->
+        <div class="col-xs-12 col-md-12">
+                <div id="type" style="width: 100%;height:300px;"></div>
+                <div id="gauge" style="width: 100%;height:300px;"></div>
+        </div>
+    </section>
+    <aside class="bounced container-fluid">
+        <div class="row title">
+                <div class="col-xs-6">攻击列表(已发现 436 次攻击)</div>                
+                <div class="col-xs-12 col-md-6">
+                  <div class="row" data-title = 'title'>
+                          <div class="col-xs-4 ">
+                                  高危 22
+                          </div>
+                          <div class="col-xs-4 ">
+                                  中危 33
+                          </div>
+                          <div class="col-xs-4 ">
+                                  低危 30
+                          </div>
+                  </div>
+                </div>
+        </div>
+        <div class="row attackList">
+                <div class="col-xs-2 col-md-2">等级</div>
+                <div class="col-xs-2 col-md-2">攻击时间</div>
+                <div class="col-xs-2 col-md-2">攻击源地址</div>
+                <div class="col-xs-2 col-md-2">目的地址</div>
+                <div class="col-xs-2 col-md-2">攻击类型</div>
+                <div class="col-xs-2 col-md-2">被攻击IP</div>
+        </div>
+        <ul class="row list">
+                <ul class="row data">
+                        <li class="col-xs-2 col-md-2">高</li>
+                        <li class="col-xs-2 col-md-2">2015-01-09</li>
+                        <li class="col-xs-2 col-md-2">天津</li>
+                        <li class="col-xs-2 col-md-2">北京</li>
+                        <li class="col-xs-2 col-md-2">SQL注入</div>
+                        <li class="col-xs-2 col-md-2">127.0.0.1</li>           
+                </ul>
+        </ul>
+    </aside>
+    <!-- 引入 echarts.js -->
+    <script  src="js/public/echarts.js"></script>
+    <script src="js/public/word.js"></script>  
+    <script src="js/word/data.js"></script>  
+    <script  src="js/word/map.js"></script>
+</body>
+</html>
