@@ -6,7 +6,7 @@ function randomData(count){
   }
   return array;
 }
-function time(count){
+function time(count) {
   var array = [];
   for(var i = 0; i < count; i++){
     array.push('2017-3-'+i);
