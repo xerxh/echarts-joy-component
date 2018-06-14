@@ -18,7 +18,7 @@ function refush () {
         legend: {
             right: '7%',
             top: '7%',
-            // bottom: 10,
+            // bottom: 10,  
             formatter: function(params){
                 if(params == 'MA5'){
                     return params+'  8.9';
