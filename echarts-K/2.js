@@ -1,4 +1,4 @@
-var upColor = 'red';   // 红色柱
+var upColor = 'red';    // 红色柱
 var downColor = 'green';　　// 绿色柱
 var myChart = echarts.init(document.getElementById('line'));
 refush()
