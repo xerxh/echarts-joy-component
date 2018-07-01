@@ -6,6 +6,7 @@ function refush () {
     myChart.setOption(option = {
         backgroundColor: '#fff',
         animation: false,
+        
         title: {
             text: '实时折线图',
             left: '1%',
