@@ -2,8 +2,7 @@
 function randomData(count){
   var array = [];
   for(var i = 0; i < count; i++){
-    array[i] = Math.random()*10000+300;
-    
+    array[i] = Math.random()*10000+300;  
   }
   return array;
 }
