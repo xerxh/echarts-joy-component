@@ -29,6 +29,8 @@ function kRandomData(count){
   }
   return array;
 }
+
+
 function k(count){   // [// 开盘 // 收盘// 最低 // 最高]  
   var array = [];
   for(var i = 0; i < count; i++){
